@@ -10,7 +10,7 @@ header{
   height: 150px;
 }
 
-#heading{
+#heading, #footing{
   padding: 0;
   float: left;
   
@@ -33,15 +33,14 @@ nav li{
   height: 10px;
 }
 
+
+#subHeading {
+  float: left;
+}
+
 #print {
   float: right; 
 
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
 }
 
 h3 p {
@@ -49,13 +48,40 @@ h3 p {
   vertical-align: bottom;
 }
 
-#subHeading {
-  float: left;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#recipeImg{
+  /* position: absolute; */
+  /* z-index: 0;
+  top: 0; */
+  display: block; 
+}
+
+#colOne{
+  /* float: left; */
+
+  position: absolute;
+  z-index: 10;
 }
   
+#colTwo{
+  position: absolute;
+  /* position: fixed; */
+  right: 300px;
+  /* float: right; */
+  z-index: 2;
+}
+button{
+float: right;
+}
 
-/* div{
-  display: flex;
 
-  /* float :  */
-/* } */ 
+/* #recCard{
+  position: relative;
+  text-align: center;
+
+} */
